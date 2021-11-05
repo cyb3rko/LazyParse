@@ -4,6 +4,7 @@ buildscript {
 
     repositories {
         google()
+        mavenCentral()
         jcenter()
     }
     dependencies {
@@ -15,6 +16,20 @@ buildscript {
     }
 }
 
+plugins {
+    id 'maven-publish'
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'com.galtashma'
+            artifactId = 'lazyparse'
+            version = '1'
+        }
+    }
 }
