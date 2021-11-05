@@ -1,13 +1,13 @@
 package com.galtashma.lazyparse;
 
-import android.support.annotation.NonNull;
 import android.util.Log;
+import androidx.annotation.NonNull;
 
-import com.parse.CountCallback;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
