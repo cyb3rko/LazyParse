@@ -1,16 +1,14 @@
-package com.galtashma.lazyparse;
+package com.galtashma.lazyparseapp;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.ListView;
 import android.widget.Toast;
+import androidx.appcompat.app.AppCompatActivity;
 
-import com.parse.FindCallback;
-import com.parse.ParseException;
-import com.parse.ParseObject;
+import com.galtashma.lazyparse.LazyList;
+import com.galtashma.lazyparse.ScrollInfiniteAdapter;
+import com.galtashma.lazyparse.ScrollInfiniteListener;
 import com.parse.ParseQuery;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 

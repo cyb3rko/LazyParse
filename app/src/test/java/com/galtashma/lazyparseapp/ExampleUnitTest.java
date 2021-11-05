@@ -1,4 +1,4 @@
-package com.galtashma.lazyparse;
+package com.galtashma.lazyparseapp;
 
 import org.junit.Test;
 
